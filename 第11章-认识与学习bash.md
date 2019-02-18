@@ -95,7 +95,7 @@ linux是多用户、多任务的环境，每个人登录系统都能获取一个
     影响bash环境操作的变量叫环境变量。例如，PATH变量中记录的是执行命令的路径，之所以可以执行
     anaconda这个命令，是因为在PATH路径配置了anaconda的路径
     
-        MacBook-Pro:~ zhanghuamao$ echo $PATH
+      MacBook-Pro:~ zhanghuamao$ echo $PATH
       /opt/local/bin:/opt/local/sbin:/Users/zhanghuamao/anaconda3/bin
           
       MacBook-Pro:~ zhanghuamao$ anaconda -V
@@ -109,15 +109,15 @@ linux是多用户、多任务的环境，每个人登录系统都能获取一个
 
 * 变量的显示：echo $变量名 或者 echo ${变量名}
     
-        MacBook-Pro:~ zhanghuamao$ echo $PATH
-        /opt/local/bin:/opt/local/sbin:/Users/zhanghuamao/anaconda3/bin
+      MacBook-Pro:~ zhanghuamao$ echo $PATH
+      /opt/local/bin:/opt/local/sbin:/Users/zhanghuamao/anaconda3/bin
 
       MacBook-Pro:~ zhanghuamao$ echo ${PATH}
       /opt/local/bin:/opt/local/sbin:/Users/zhanghuamao/anaconda3/bin
 
     没有设置的变量默认值为空，通过等号(=)可以进行复制
     
-        MacBook-Pro:~ zhanghuamao$ echo $myname
+      MacBook-Pro:~ zhanghuamao$ echo $myname
       MacBook-Pro:~ zhanghuamao$ myname=usera
       MacBook-Pro:~ zhanghuamao$ echo $myname
       usera
@@ -126,7 +126,7 @@ linux是多用户、多任务的环境，每个人登录系统都能获取一个
     * 变量和变量内容使用等号连结
     * 等号两边不能使用空格
     
-            MacBook-Pro:~ zhanghuamao$ myname = userb
+          MacBook-Pro:~ zhanghuamao$ myname = userb
           -bash: myname: command not found
 
     * 变量名称只能是英文字母与数字，但是开头字符不能是数字
